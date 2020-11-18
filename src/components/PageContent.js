@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Photogrid from './Photogrid';
+import About from './About';
+import Footer from './Footer';
 
 class PageContent extends React.Component {
     render() {
@@ -20,6 +22,12 @@ class PageContent extends React.Component {
                 </div>
                 
                 <hr id="about"></hr>
+
+                <About />
+
+                <hr />
+
+                <Footer />
             </div>
         )
     }
